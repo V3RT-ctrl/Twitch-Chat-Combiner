@@ -1,7 +1,6 @@
 global user
 global oauth
 import socket # connect to twitch
-user = user.lower()
 Running = True #im getting better at using less global varialbes, I still need this one tho
 sock = socket.socket() #and this one
 import time
