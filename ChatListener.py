@@ -1,6 +1,7 @@
 global user
 global oauth
 import socket # connect to twitch
+user = user.lower()
 Running = True #im getting better at using less global varialbes, I still need this one tho
 sock = socket.socket() #and this one
 import time
@@ -16,12 +17,7 @@ colorInit(convert=True)
 
 class Chat():
     def __init__(self, channel):
-        self.channel = channel
-        try:
-            self.channel = self.channel.lower()
-        except:
-            pass
-            
+        self.channel = channel            
             
     def connectToChat(self): # Connects to the chat
         sock.connect(('irc.chat.twitch.tv', 6667))

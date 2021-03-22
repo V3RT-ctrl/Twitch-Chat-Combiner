@@ -1,2 +1,2 @@
-user = 'username' # Your username. It needs to be lowercased
+user = 'username' # Your username. 
 oauth = 'oauth:' # This is your oauth. https://twitchapps.com/tmi/

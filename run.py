@@ -3,6 +3,7 @@ from ChatListener import *
 personIn = []
 def connectMore():
     personname = input()
+    personname = personname.lower()
     if personname not in personIn:
         personIn.append(personname)
         object = Chat(personname)
