@@ -59,5 +59,3 @@ class Chat():
     def initialize(self):
         self.connectToChat()
         self.call()
-
-
